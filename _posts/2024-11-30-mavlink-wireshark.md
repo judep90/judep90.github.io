@@ -1,4 +1,8 @@
-# MAVLink Debugging
+---
+layout: post
+title:  "MAVLink Debugging"
+categories: mavlink
+---
 MAVLink over serial can't be introspected (AFAIK) but can be over TCP.
 Setup a `socat` bridge for path `device[serial]->socat[tcp]->socat[serial]`
 ```shell
@@ -22,4 +26,4 @@ socat -d2 tcp-l:5760 /dev/cu.usbmodem01,rawer
 > tail -f /dev/ttys007 > /dev/null
 ```
 
-![wireshark capturing and decoding MAVLink](2024-11-30-mavlink-wireshark.png)
+![wireshark capturing and decoding MAVLink](/assets/2024-11-30-mavlink-wireshark.png)
