@@ -36,7 +36,7 @@ socat -d2 tcp-l:5760,nodelay /dev/cu.usbmodem01,rawer
 <script src="/assets/js/json.min.js"></script>
 ## results
 [packet capture](/assets/posts/2024-11-30-mavlink-wireshark/mavlink.pcapng)
-<details><summary>Dissected MAVLink Packets</summary> <pre><code class="language-json"> {% include_relative 2024-11-30-mavlink-wireshark/mavlink-packet-dissection.json %} </code></pre> </details> <script>hljs.highlightAll()</script>
+<details><summary>Dissected MAVLink Packets</summary> <pre><code class="language-json"> {% include_relative mavlink-packet-dissection.json %} </code></pre> </details> <script>hljs.highlightAll()</script>
 
 
 
