@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "[WIP] - qgroundcontrol on apple silicon"
-categories: qgc qgroundcontrol macos arm
+title:  "qgroundcontrol on apple silicon"
+categories: qgc qgroundcontrol macos arm qt
 ---
 
 Installing [QGroundControl](https://docs.qgroundcontrol.com/master/en/qgc-user-guide/index.html) through `brew` on macos pulls down an `x86` build. Should be able to compile qgc for `arm64`.
@@ -23,3 +23,10 @@ git submodule update --init --recursive
 cmake . -G "Unix Makefiles" 
 make --jobs=6 QGroundControl
 ```
+
+### Run 
+```
+./QGroundControl.app/Contents/MacOS/QGroundControl
+```
+![Ta Da!](/assets/posts/2024-12-06-qgroundcontrol-on-apple-silicon/img.png)
+Not sure why Activity Monitor does not have a name but the highlighted row is QGC running without Rosetta.
