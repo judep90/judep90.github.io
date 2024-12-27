@@ -30,7 +30,7 @@ Not exhaustive and does not attempt to compare qualitatively (power, range, etc.
 Components 
 - Holybro Kakute H7 mini v1.3 
 - Tekko32 AM32 ESC
-- SAM-M10Q GNSS + Compass -> UART4
+- ublox M10 GNSS -> UART4
 - RadioMaster RP2 - UART6 
 - TBS CRSF Nano Rx Pro -> UART2
 
