@@ -5,7 +5,8 @@ categories: mavlink datalink crossfire tbs
 ---
 
 goal: mavlink to FC running PX4 over a wireless link
-\* sub $100 tx+rx cost
+
+\*sub $100 tx+rx cost
 
 ## existing options
 
