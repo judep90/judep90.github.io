@@ -22,7 +22,7 @@ down the rabbithole to update
 
 ### updating iDRAC
 
-starting with 2.50.50.50. newest is 2.86.86.86.
+starting with 2.50.50.50 newest is 2.86.86.86
 
 - first attempt 2.50.50.50 -> 2.86.86.86 failed
 - smallest possible jump 2.50.50.50 -> 2.52.52.52 also failed
@@ -50,3 +50,10 @@ starting with 2.8.0 newest is 2.19.0
 | 2.13.0  | 2.15.0                                 | ❌ <br/> `RED007: Unable to verify Update Package signature.`                                   | 
 
 2.13.0 is as far as we go I guess
+
+#### updating iDRAC
+
+| version    | update                 | success                                                     |
+|------------|------------------------|-------------------------------------------------------------|
+| 2.50.50.50 | 2.86.86.86             | ❌<br/> `RED007: Unable to verify Update Package signature.` |
+| 2.50.50.50 | 2.52.52.52, 2.60.60.60 |                                                             |
