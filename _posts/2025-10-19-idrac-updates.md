@@ -53,7 +53,10 @@ starting with 2.8.0 newest is 2.19.0
 
 #### updating iDRAC
 
+again, the Windows x64 packages are used. wack
+
 | version    | update                 | success                                                     |
 |------------|------------------------|-------------------------------------------------------------|
 | 2.50.50.50 | 2.86.86.86             | ❌<br/> `RED007: Unable to verify Update Package signature.` |
-| 2.50.50.50 | 2.52.52.52, 2.60.60.60 |                                                             |
+| 2.50.50.50 | 2.52.52.52, 2.60.60.60 | ✅                                                           |
+| 2.60.60.60 | 2.61.60.60, 2.63.60.61 |                                                             |
